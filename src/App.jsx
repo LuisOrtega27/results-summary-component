@@ -1,11 +1,15 @@
 
 import './App.css'
-import SumaryComponent from './components/SumaryComponent'
+import ResultsSummary from './components/ResultsSummary'
+import Footer from './components/Footer'
 
 function App(){
 
   return (
-      <SumaryComponent/>
+    <>
+      <ResultsSummary/>
+      <Footer/>
+    </>
   )
 }
 

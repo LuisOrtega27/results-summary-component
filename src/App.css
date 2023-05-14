@@ -3,7 +3,16 @@
   margin: 0;
   box-sizing: border-box;
 }
+html, body{
+  height: 100%;
+}
+body{
+  position: relative;
+  
+  display: grid;
+  justify-content: center;
+  align-items: center;
 
-/* body{
-  background: ;
-} */
+  font-family: 'Hanken Grotesk';
+  font-size: 18px;
+}
