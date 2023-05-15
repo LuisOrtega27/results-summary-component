@@ -36,11 +36,13 @@
     --DarkGrayBlue: hsl(224, 30%, 27%);
 }
 
+body{
+    position: relative;
 
-
-.summary-container{
-
+    font-family: 'Hanken Grotesk';
+    font-size: 18px;
 }
+
 
 .general-result{
     text-align: center;
@@ -155,14 +157,47 @@
 /* Movil: 375px */
 @media only screen and (min-width: 375px) {
     body{
+        display: inline-block;
         align-items: start;
     }
+    .summary-container{
+        /* 
+        margin: 0;
+        width: 375px;
+        margin: auto;
+        */
+        box-shadow: 0px 0px 15px #0005;
+    } 
+}
 
+@media only screen and (min-width: 600px) {
+    body{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .summary-container{
+        width: 100%;
+        border-radius: 2em;
+        overflow: hidden;
+    }
 
 }
 
 /* Descktop: 1440px */
-@media only screen and (width: 1440px) {
-    
-
+@media only screen and (min-width: 1000px) {
+    .summary-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 70%;
+        box-shadow: 5px 5px 15px #0005;
+        margin: auto;
+    }
+    .general-result{
+        border-radius: 2em;
+    }
+    .general-score{
+        padding: 4em;
+    }
 }
