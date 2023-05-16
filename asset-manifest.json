@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/results-summary-component/static/css/main.231a9f2c.css",
+    "main.js": "/results-summary-component/static/js/main.536e66bd.js",
+    "static/media/HankenGrotesk-VariableFont_wght.ttf": "/results-summary-component/static/media/HankenGrotesk-VariableFont_wght.d642a5d85689aa7d33db.ttf",
+    "index.html": "/results-summary-component/index.html",
+    "main.231a9f2c.css.map": "/results-summary-component/static/css/main.231a9f2c.css.map",
+    "main.536e66bd.js.map": "/results-summary-component/static/js/main.536e66bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.231a9f2c.css",
+    "static/js/main.536e66bd.js"
+  ]
+}
