@@ -1,0 +1,26 @@
+.attribution{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em;
+    color: #fff;
+    text-align: center;
+    background: #222f3e;
+    /* ---------------BORRAR-------------- */
+    /* display: none; */
+}
+
+.attribution a{
+    color: rgb(107, 181, 255) !important;
+}
+
+
+/* Descktop: 1440px */
+
+/* Movil: 375px */
+@media only screen and (min-width: 375px) {
+    .attribution{
+        padding: 0.6em;
+    }
+}
