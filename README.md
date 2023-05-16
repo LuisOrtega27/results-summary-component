@@ -43,5 +43,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Luis F. Ortega](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Luis F. Ortega](https://luisortega27.github.io/portfolio/)
+- Frontend Mentor - [@LuisOrtega27](https://www.frontendmentor.io/profile/@LuisOrtega27)
